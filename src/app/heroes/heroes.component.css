@@ -1,0 +1,38 @@
+li {
+  list-style-type: none;
+
+  font-size: 1.2em;
+  color: black;
+  width: 200px;
+  position: relative;
+  margin-bottom: 10px;
+  display: table;
+  background-color: #b3b3b3;
+  border-radius: 5%;
+}
+
+li span {
+  background-color: #2a2671;
+  padding: 10px;
+  color: white;
+  text-align: center !important;
+  border-radius: 10%;
+}
+
+li a {
+  text-decoration: none;
+}
+
+li:hover {
+  color: rgba(0, 105, 148, 0.5);
+  cursor: pointer;
+}
+
+.selected {
+  color: rgba(0,0,0,0.5);
+  background-color: rgba(179, 179, 179, 0.5);
+}
+
+.selected > span {
+  background-color: rgba(42, 38, 113, 0.6);
+}
